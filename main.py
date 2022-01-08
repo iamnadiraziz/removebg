@@ -25,7 +25,7 @@ HELP_TEXT = """
 Mən RemoveBG api*sindən istifadə olunaran kodlaşdırılmışam.
 """
 ABOUT_TEXT = """
-- **Bot :** `Arxa plan təmizləyici`
+- **Bot :** `MWRemoveBgBot`
 - **Sahib :** [𝐃𝐏𝐁✯ ᴛᴛx ࿈ 𝕯𝖊𝖒𝖔𝖓 </>](https://t.me/DeMoN_DPB_TTX)
 - **Kanalımız :** [Maraqlı Web💻(Hacker)](https://t.me/maragliweb)
 - **Kanalımız :** [Dark Web Azerbaijan](https://t.me/DarkWebAzerbaijan)
@@ -33,8 +33,9 @@ ABOUT_TEXT = """
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢Güncəlləmələr', url='https://t.me/GroupMasterOfficial'),
-        InlineKeyboardButton('Sahib👥', url='https://t.me/DeMoN_DPB_TTX')
+        InlineKeyboardButton('📢Kanalımız', url='https://t.me/maragliweb'),
+        InlineKeyboardButton('Sahib👤', url='https://t.me/DeMoN_DPB_TTX'),
+        InlineKeyboardButton('👥Qrupumuz', url='https://t.me/AzerbaijanSupport')
         ],[
         InlineKeyboardButton('Kömək', callback_data='help'),
         InlineKeyboardButton('Ətraflı məlumat', callback_data='about'),
