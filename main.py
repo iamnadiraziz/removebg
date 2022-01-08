@@ -14,7 +14,7 @@ FayasNoushad = Client(
 )
 
 START_TEXT = """
-Salam {}, Mən sən attığın şəkillərin arxa planını silmək üçün kodlaşdırılmışam\nSualı və ya botda xəta əmələ gəlsə Sahiblə əlaqə saxla :)
+Salam {}, Mən sənin atdığın şəkillərin arxa planını silmək üçün @DeMoN_DPB_TTX və @Cahildi tərəfindən kodlaşdırılmışam\nSualın olarsa və ya botda xəta əmələ gələrsə, Sahiblə əlaqə saxla :)
 
 """
 HELP_TEXT = """
