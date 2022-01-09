@@ -117,7 +117,7 @@ async def remove_background(bot, update):
     )
     if (update and update.media and (update.photo or (update.document and "image" in update.document.mime_type))):
         file_name = IMG_PATH + "/" + str(update.from_user.id) + "/" + "image.jpg"
-        new_file_name = IMG_PATH + "/" + str(update.from_user.id) + "/" + "DWA.png"
+        new_file_name = IMG_PATH + "/" + str(update.from_user.id) + "/" + "MWRemoveBgBot.png"
         await update.download(file_name)
         await message.edit_text(
             text="Şəkil yükləndi. Hal-hazırda arxa plan silinir.",
