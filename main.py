@@ -103,7 +103,7 @@ async def start(bot, update):
 async def remove_background(bot, update):
     if not API:
         await update.reply_text(
-            text="Xəta :- Remove BG Api \nXaiş edirəm bunu adminə bildir!",
+            text="Xəta :- Remove BG Api \nXahiş edirəm bunu adminə bildir!",
             quote=True,
             disable_web_page_preview=True,
             reply_markup=ERROR_BUTTONS
