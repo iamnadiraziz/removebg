@@ -3,12 +3,12 @@ import requests
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API = "PKziByZ8VtufSUcqDE9MwwxW"
+API = "DXWPtDJnMaLmCr5whwiY9whd"
 IMG_PATH = "./DOWNLOADS"
 
 FayasNoushad = Client(
     "Remove Background Bot",
-    bot_token = "5018217330:AAGq_jQcvjF2DFWXBs9JC4pZwDM77oUaPqo",
+    bot_token = "5262921643:AAG4rteoha8hM1bK9nchzxnFhDigfMQTa5s",
     api_id = 7924471,
     api_hash = "1e706c26adb6600aac9d62688dc81605",
 )
@@ -26,7 +26,7 @@ Mən RemoveBG api*sindən istifadə olunaran kodlaşdırılmışam.
 """
 ABOUT_TEXT = """
 - **Bot :** `MWRemoveBgBot`
-- **Sahib :** [𝐃𝐏𝐁✯ ᴛᴛx ࿈ 𝕯𝖊𝖒𝖔𝖓 </>](https://t.me/DeMoN_DPB_TTX)
+- **Sahib :** [n404](https://t.me/Cahilemdi)
 - **Kanalımız :** [Maraqlı Web💻(Hacker)](https://t.me/maragliweb)
 - **Kanalımız :** [Dark Web Azerbaijan](https://t.me/DarkWebAzerbaijan)
 - **Qrupumuz :** [𝔸𝕫𝕖𝕣𝕓𝕒𝕚𝕛𝕒𝕟 𝕋𝕖𝕩𝕟𝕠𝕝𝕠𝕛𝕚 𝕊𝕦𝕡𝕡𝕠𝕣𝕥 💻](https://t.me/AzerbaijanSupport)
@@ -34,7 +34,7 @@ ABOUT_TEXT = """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('📢Kanalımız', url='https://t.me/maragliweb'),
-        InlineKeyboardButton('Sahib👤', url='https://t.me/DeMoN_DPB_TTX'),
+        InlineKeyboardButton('Sahib👤', url='https://t.me/Cahilemdi'),
         InlineKeyboardButton('👥Qrupumuz', url='https://t.me/AzerbaijanSupport')
         ],[
         InlineKeyboardButton('Kömək', callback_data='help'),
@@ -64,7 +64,7 @@ ERROR_BUTTONS = InlineKeyboardMarkup(
     )
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢Güncəlləmələr', url='https://t.me/GroupMasterOfficial')
+        InlineKeyboardButton('📢Güncəlləmələr', url='https://t.me/')
         ]]
     )
 
